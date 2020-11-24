@@ -1,0 +1,12 @@
+html,
+body{background-color: #282a36;
+    font-family:Verdana,sans-serif;
+    font-size:15px;
+    line-height:1.5
+}
+h1{
+color: #ffffff;
+text-shadow: #191a29;
+font-size: 96px;
+text-align: center;
+}
