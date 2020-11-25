@@ -1,12 +1,62 @@
 html,
-body{background-color: #282a36;
+html,body,h1,h2,h3,h4,h5,h6,p,p1,a{font-family: "Bungee", sans-serif}
+body{
+    background-image: url("background.png");
     font-family:Verdana,sans-serif;
     font-size:15px;
-    line-height:1.5
+    line-height:1.5;
+    
 }
+.title
 h1{
-color: #ffffff;
-text-shadow: #191a29;
-font-size: 96px;
+color: #adffe3;
+font-size: 72px;
 text-align: center;
+margin-top: 10px;
+margin: 0px;
+}
+
+
+h2{
+color: aquamarine;
+text-align: center;
+font-size: 36px;
+text-align: center;
+margin: 0px;
+}
+
+a{
+    color: aquamarine;
+    text-align: center;
+    font-size: 48px;
+    text-align: center;
+    margin: 29%;
+}
+
+.content
+h3{
+    color: #ffffff;
+    text-align: center;
+
+    }
+.socialmedia
+
+    a{
+        color:#ffffff;
+        text-align: center;
+        font-size: 28px;
+        margin-left: 45%;
+        padding: 10px;
+        border: 1em;
+     }
+.footer{
+
+    background-color: #ffffff;
+    margin: 0px;
+    height: 100px;
+}
+p{
+    color: #adffe3;
+    text-align: center;
+    padding: 40px;
 }
