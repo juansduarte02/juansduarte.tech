@@ -12,51 +12,78 @@ h1{
 color: #adffe3;
 font-size: 72px;
 text-align: center;
-margin-top: 10px;
-margin: 0px;
+margin-top: 10pt;
+margin: 0pt;
 }
 
 
 h2{
 color: aquamarine;
 text-align: center;
-font-size: 36px;
-text-align: center;
-margin: 0px;
-}
+font-size: 46px;
+text-align: center
+;margin-left: 300pt;
 
+}
+article{
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 50px 40px;
+    width:50%;
+    margin-left: 250pt;
+}
 a{
-    color: aquamarine;
+    color: #00f4bf;
     text-align: center;
-    font-size: 48px;
-    text-align: center;
-    margin: 29%;
+    font-size: 38px;
+    
 }
 
-.content
-h3{
-    color: #ffffff;
-    text-align: center;
-
-    }
-.socialmedia
-
-    a{
-        color:#ffffff;
+.content{
+    margin:0px 35%;
+    width:max-content;
+    
+    
+}
+    h3{
+        
+        color: #ffffff;
         text-align: center;
-        font-size: 28px;
-        margin-left: 45%;
-        padding: 10px;
-        border: 1em;
-     }
+        font-size: 30px;
+        }
+
+h4{
+
+    text-align: center;
+    color: #ffffff;
+    font-size: 38px;
+    margin: 0px;
+}    
+}
+    
 .footer{
 
-    background-color: #ffffff;
+    background-color: #002142;
     margin: 0px;
-    height: 100px;
-}
-p{
-    color: #adffe3;
-    text-align: center;
+    height: 150px;
     padding: 40px;
 }
+p{
+    color: #00ffaa;
+    text-align: center;
+    font-size: 38px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    padding: 10px;
+  }
+  .grid-item {
+    
+    border: 1px solid white;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
